@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #a17dc4 79%, #ffffff 100%);
+    min-height: 100vh;
+}
+.quiz-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+    width: 600px;
+    overflow: hidden;
+    max-width:100%;
+}
+.quiz-header{
+    padding: 3rem;
+}
+h2{
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    
+    margin:  1rem 0;
+    font-size: 1.1rem;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: #85FFBD;
+    border: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    font-family: inherit;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Baloo Chettan 2', cursive;
+
+
+}
+button:hover{
+    background-color: #185f5c;
+    color: white;
+}
+button:focus{
+    background-color: #5e3370;
+    outline: none;
+}
